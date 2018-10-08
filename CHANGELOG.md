@@ -47,6 +47,20 @@ specified in a field description cannot be found was removed.
 - Removed deprecated `AbstractAdmin::buildSideMenu` method
 - `AdminInterface::configure` was removed
 
+## [3.40.0](https://github.com/sonata-project/SonataAdminBundle/compare/3.39.0...3.40.0) - 2018-09-09
+### Added
+- Added `Admin` object reference to javascript `window` object
+- Added `RuntimeException` message for `Create` and `Show` actions from `CRUDController`
+- Added a new maker to generate admin class, controller and service definition
+
+### Fixed
+- Added support for moment.js French language
+- `Pool::getInstance` will always return a valid admin instance
+- Fixed controller reference deprecations
+
+### Removed
+- Removed inline scripts for `SONATA_CONFIG` and `SONATA_TRANSLATIONS`
+
 ## [3.39.0](https://github.com/sonata-project/SonataAdminBundle/compare/3.38.3...3.39.0) - 2018-09-09
 
 ### Added
