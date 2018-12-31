@@ -387,7 +387,6 @@ other two on the dashboard, you can do so by overriding the
 
             return $actions;
         }
-
     }
 
 You can also hide an action from the dashboard by unsetting it::
@@ -407,7 +406,6 @@ You can also hide an action from the dashboard by unsetting it::
 
             return $actions;
         }
-
     }
 
 If you do this, you need to be aware that the action is only hidden. it will
