@@ -408,6 +408,6 @@ You can also hide an action from the dashboard by unsetting it::
         }
     }
 
-If you do this, you need to be aware that the action is only hidden. it will
+If you do this, you need to be aware that the action is only hidden. It will
 still be available by directly calling its URL, unless you prevent that using
 proper security measures (e.g. ACL or role based).
