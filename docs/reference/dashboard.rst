@@ -302,6 +302,8 @@ counter is related to the filters from one admin
 
     .. code-block:: yaml
 
+        # config/packages/sonata_admin.yaml
+
         sonata_admin:
             dashboard:
                 blocks:
